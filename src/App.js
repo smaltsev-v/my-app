@@ -1,5 +1,5 @@
 import PaintingList from './components/PaintingsList';
-// import Section from './components/Section';
+import Section from './components/Section';
 import paintings from './paintings.json';
 
 
