@@ -11,7 +11,7 @@ import defaultImage from '../images/logo512.png';
     quantity,
   }) =>{
   return(
-   <div>
+   <div className ="Painting">
      <img src={imageUrl} alt={title} width="480" />
      <h2>{title}</h2>
      <p>
