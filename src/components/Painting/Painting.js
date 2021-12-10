@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
-import defaultImage from '../images/logo512.png';
+import s from'./Painting.module.css';
+import defaultImage from '../../images/logo512.png';
+
 
 
   const Painting= ({
@@ -10,8 +12,8 @@ import defaultImage from '../images/logo512.png';
     price,
     quantity,
   }) =>{
-  return(
-   <div className ="Painting">
+    return (
+      <div className={s.container }>
      <img src={imageUrl} alt={title} width="480" />
      <h2>{title}</h2>
      <p>
